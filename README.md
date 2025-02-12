@@ -71,6 +71,7 @@ You will find pinout schematics for recommended board models below:
 | SCL | 4 | yellow | D19/SCL |
 
 
+
 <img src="images/Arduino-Uno-Rev3-i2c-pinout-3.3V.png" width="600px">
 </p>
 </details>
@@ -87,6 +88,7 @@ You will find pinout schematics for recommended board models below:
 | GND | 2 | black | GND |
 | SDA | 3 | green | A4 |
 | SCL | 4 | yellow | A5 |
+
 
 
 <img src="images/Arduino-Nano-i2c-pinout-3.3V.png" width="600px">
@@ -107,6 +109,7 @@ You will find pinout schematics for recommended board models below:
 | SCL | 4 | yellow | ~D3/SCL |
 
 
+
 <img src="images/Arduino-Micro-i2c-pinout-3.3V.png" width="600px">
 </p>
 </details>
@@ -125,6 +128,7 @@ You will find pinout schematics for recommended board models below:
 | SCL | 4 | yellow | D21/SCL |
 
 
+
 <img src="images/Arduino-Mega-2560-Rev3-i2c-pinout-3.3V.png" width="600px">
 </p>
 </details>
@@ -141,6 +145,7 @@ You will find pinout schematics for recommended board models below:
 | GND | 2 | black | GND |
 | SDA | 3 | green | GPIO 21 |
 | SCL | 4 | yellow | GPIO 22 |
+
 
 
 <img src="images/esp32-devkitc-i2c-pinout-3.3V.png" width="600px">
