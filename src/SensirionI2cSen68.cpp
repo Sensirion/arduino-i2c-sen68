@@ -3,10 +3,10 @@
  *
  * Generator:     sensirion-driver-generator 1.0.1
  * Product:       sen68
- * Model-Version: 1.2.0
+ * Model-Version: 1.3.0
  */
 /*
- * Copyright (c) 2024, Sensirion AG
+ * Copyright (c) 2025, Sensirion AG
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -629,7 +629,7 @@ int16_t SensirionI2cSen68::activateShtHeater() {
     return localError;
 }
 
-int16_t SensirionI2cSen68::getProductName(uint8_t productName[],
+int16_t SensirionI2cSen68::getProductName(int8_t productName[],
                                           uint16_t productNameSize) {
     int16_t localError = NO_ERROR;
     uint8_t* buffer_ptr = communication_buffer;
@@ -651,7 +651,7 @@ int16_t SensirionI2cSen68::getProductName(uint8_t productName[],
     return localError;
 }
 
-int16_t SensirionI2cSen68::getSerialNumber(uint8_t serialNumber[],
+int16_t SensirionI2cSen68::getSerialNumber(int8_t serialNumber[],
                                            uint16_t serialNumberSize) {
     int16_t localError = NO_ERROR;
     uint8_t* buffer_ptr = communication_buffer;
